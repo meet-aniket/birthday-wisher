@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is birthday-wisher backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aniket_Pandey",
+  "license": "ISC",
+  "keywords": [],
+  "homepage": "https://github.com/meet-aniket/birthday-wisher#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meet-aniket/birthday-wisher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meet-aniket/birthday-wisher/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "braintree": "^3.8.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.14.0",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.4.0",
+    "uuid": "^8.3.2"
+  }
+}
